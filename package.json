@@ -1,0 +1,27 @@
+{
+  "name": "codecept-lj",
+  "version": "1.0.0",
+  "description": "Livejournal Tests",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TypeA/Codecept-LJ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TypeA/Codecept-LJ/issues"
+  },
+  "homepage": "https://github.com/TypeA/Codecept-LJ#readme",
+  "devDependencies": {
+    "codeceptjs": "^2.6.10",
+    "puppeteer": "^5.2.1"
+  }
+}
