@@ -12,6 +12,11 @@ exports.config = {
       url: 'https://livejournal.com',
       show: true,
       windowSize: '1200x900'
+    },
+    REST: {
+      endpoint: 'https://api.livejournal.com/os/3.0/rest/',
+          onRequest: (request) => {
+      }
     }
   },
   include: {
