@@ -2,10 +2,6 @@
   "name": "codecept-lj",
   "version": "1.0.0",
   "description": "LiveJournal Tests",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
   "scripts": {
     "test": "codeceptjs run --plugins allure"
   },
@@ -13,13 +9,8 @@
     "type": "git",
     "url": "git+https://github.com/TypeA/Codecept-LJ.git"
   },
-  "keywords": [],
   "author": "Type_A",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TypeA/Codecept-LJ/issues"
-  },
-  "homepage": "https://github.com/TypeA/Codecept-LJ#readme",
   "devDependencies": {
     "codeceptjs": "^2.6.10",
     "puppeteer": "^5.2.1"
