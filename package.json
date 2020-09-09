@@ -7,14 +7,14 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "codeceptjs run"
+    "test": "codeceptjs run --plugins allure"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TypeA/Codecept-LJ.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Type_A",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TypeA/Codecept-LJ/issues"
